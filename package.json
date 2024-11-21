@@ -1,0 +1,25 @@
+{
+  "name": "@antoineguglielmi/tw-typeface-test",
+  "version": "0.0.2",
+  "description": "A typeface customization",
+  "main": "dist/typeface.js",
+  "types": "dist/typeface.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "postbuild": "cp src/tailwindcss.d.ts dist/"
+  },
+  "keywords": [
+    "tailwindcss",
+    "typescript",
+    "typeface"
+  ],
+  "author": "Antoine Guglielmi",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.0.0"
+  }
+}
