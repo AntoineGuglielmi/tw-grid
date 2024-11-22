@@ -1,18 +1,17 @@
 {
-  "name": "@antoineguglielmi/tw-typeface-test",
-  "version": "0.0.2",
-  "description": "A typeface customization",
-  "main": "dist/typeface.js",
-  "types": "dist/typeface.d.ts",
+  "name": "@antoineguglielmi/tw-grid",
+  "version": "0.0.1",
+  "description": "A grid customization",
+  "main": "dist/grid.js",
+  "types": "dist/grid.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build",
-    "postbuild": "cp src/tailwindcss.d.ts dist/"
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "tailwindcss",
     "typescript",
-    "typeface"
+    "grid"
   ],
   "author": "Antoine Guglielmi",
   "license": "MIT",
